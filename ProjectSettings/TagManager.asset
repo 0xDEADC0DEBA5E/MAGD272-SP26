@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Collectible
+  - CheckPoint
   layers:
   - Default
   - TransparentFX
@@ -38,12 +40,17 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 1465559123
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Middle
+    uniqueID: 2675072679
+    locked: 0
+  - name: Foreground
+    uniqueID: 2665292355
+    locked: 0
   m_RenderingLayers:
   - Default
-  - Background
-  - Foreground
-  - Characters
-  - UI
